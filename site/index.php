@@ -20,6 +20,7 @@ $message = $req->fetchAll(PDO::FETCH_ASSOC);
 	<title>Take care of him</title>
 	<link rel="stylesheet" href="public/css/app.css">
 </head>
+
 <body>
 	
 	<div class="container">

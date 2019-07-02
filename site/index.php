@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
 	<!-- Required meta tags -->
     <meta charset="utf-8">
@@ -10,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href=".css">
 	<title>Take care of him</title>
 </head>
+
 <body>
 	<!-- block page-->
 	<div class="container">
@@ -57,4 +60,5 @@
 		<?php include('footer.php');?>
 	</div>
 </body>
+
 </html>

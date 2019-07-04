@@ -11,3 +11,8 @@ img {
 a {
     text-decoration: none;
 }
+
+header h1
+  {
+    position: absolute;  
+  }

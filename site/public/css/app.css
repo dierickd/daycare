@@ -1,35 +1,39 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 html, body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 img {
-    width: 100%;
+  width: 100%;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-<<<<<<< HEAD
 .sticky.is-sticky {
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 1000;
-    width: 100%;
-  }
-
-.header {
-    background: url("../img/banner2.jpg") no-repeat;
-    background-size: cover;
-    height: 400px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
 }
-=======
 
-header h1
-  {
-    position: absolute;  
-  }
->>>>>>> 67896d692e5d9a25256433996e1ca1d787ca979f
+header {
+  position: relative;
+  background: url("../img/banner2-1.jpg") no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+.header{
+  position: absolute;
+  background: rgba(255,255,255, .5);
+  box-shadow: 0 0 15px rgba(214, 214, 214, 0.7);
+  border-radius: 5px;
+  padding: 20px;
+  width: 90%;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}

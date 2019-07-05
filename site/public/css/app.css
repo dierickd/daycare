@@ -37,3 +37,48 @@ header {
   top: 50%;
   transform: translateY(-50%);
 }
+
+/*
+* custom home page
+*/
+.article-home{
+  margin-top: 40px;
+  box-shadow: 0 0 12px rgba(214, 214, 214, 0.7);
+  padding: 8px;
+  border-radius: 5px;
+}
+.article-home .art-title{
+  text-align: center;
+  padding-top: 8px;
+}
+.article-home p{
+  text-align: justify;
+}
+.article-home .art-footer{
+  text-align: right;
+  padding-right: 10px;
+}
+
+
+@media only screen and (min-width: 690px) {
+  .header{
+    width: 50%;
+    right: 100px;
+    max-width: 615px;
+  }
+  .article-home{
+    display: flex;
+  }
+  .article-home .art-content{
+    padding-left: 25px;
+    padding-right: 10px;
+    width: 100%;
+  }
+  .article-home .art-title{
+    text-align: left;
+  }
+  .article-home .art-img{
+    flex: none;
+    width: 300px;
+  }
+}

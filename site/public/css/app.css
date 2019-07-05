@@ -11,3 +11,17 @@ img {
 a {
     text-decoration: none;
 }
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+
+.header {
+    background: url("../img/banner2.jpg") no-repeat;
+    background-size: cover;
+    height: 400px;
+}

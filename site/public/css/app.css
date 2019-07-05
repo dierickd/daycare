@@ -11,6 +11,7 @@ img {
 a {
     text-decoration: none;
 }
+<<<<<<< HEAD
 .sticky.is-sticky {
     position: fixed;
     left: 0;
@@ -25,3 +26,10 @@ a {
     background-size: cover;
     height: 400px;
 }
+=======
+
+header h1
+  {
+    position: absolute;  
+  }
+>>>>>>> 67896d692e5d9a25256433996e1ca1d787ca979f

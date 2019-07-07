@@ -80,5 +80,18 @@ header {
   .article-home .art-img{
     flex: none;
     width: 300px;
+    position: relative;
+  }
+  .article-home .art-img img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+  }
+  .article-home.right{
+    flex-direction: row-reverse;
+  }
+  .article-home.right .art-img{
+    padding-left: 50px;
   }
 }

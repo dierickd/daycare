@@ -14,7 +14,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
             <a class="nav-item nav-link active" href="#">Home</a>
-            <a class="nav-item nav-link" href="#">Nusre</a>
+            <a class="nav-item nav-link" href="#">Nursery</a>
             <a class="nav-item nav-link" href="#">Activity</a>
             <a class="nav-item nav-link" href="#">About</a>
             <a class="nav-item nav-link" href="#">Contact</a>

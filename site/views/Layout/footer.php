@@ -1,6 +1,6 @@
         <footer>
             <!-- return to top page -->
-            <a href="#top"><img src="https://via.placeholder.com/30x30" alt="logo for return to top page"></a>
+            <!--<a href="#top"><img src="https://via.placeholder.com/30x30" alt="logo for return to top page"></a>-->
         </footer>
     </div>
 

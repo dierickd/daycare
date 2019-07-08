@@ -6,7 +6,7 @@
     </div>
     <div class="art-content">
         <div class="art-title">
-            <h2>Nurse</h2>
+            <h2>Nursery</h2>
         </div>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere illo quaerat veniam quibusdam rem doloremque ex, ut eum perspiciatis? Laboriosam doloremque illo ullam necessitatibus amet voluptate dolore quidem, porro deserunt!Exercitationem placeat similique quod suscipit maxime velit sunt quisquam iusto ipsam nemo accusantium nobis voluptatem non ab eligendi inventore, nisi quos sequi quam odio eum unde! Architecto fugiat nihil minima?

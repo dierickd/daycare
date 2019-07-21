@@ -39,6 +39,7 @@
 			</div>
 		</div>
 	</form>
+	<div class="border_three-part">
 		<div class="form_reservation_date">
 			<form>
 				<h2 class="contact_subtitle_form">Reservation date</h2>
@@ -55,14 +56,14 @@
 			<form>
 				<h2 class="contact_subtitle_form">Pension plan</h2>
 				<div class="form-check">
-					<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-					<label class="form-check-label" for="exampleRadios1">
+					<input class="form-check-input-half_pension" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+					<label class="form-check-label-half-pension" for="exampleRadios1">
 						Half pension
 					</label>
 				</div>
 				<div class="form-check">
-					<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-					<label class="form-check-label" for="exampleRadios2">
+					<input class="form-check-input-complete-pension" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+					<label class="form-check-label-complete-pension" for="exampleRadios2">
 						complete pension
 					</label>
 				</div>
@@ -70,23 +71,24 @@
 		</div>
 		<div class="pension_price text-center">
 			<h2 class="contact_subtitle_form">pension price</h2>
-				<p class="tarif"> 99 $ / per day</p>
-				<br/>
-				<a href="#"><img src="https://image.flaticon.com/icons/png/512/57/57563.png" alt="logo add command"></a>
+			<p class="tarif"> 99 $ / per day</p>
+			<br/>
+			<a href="#"><img src="https://image.flaticon.com/icons/png/512/57/57563.png" alt="logo add command"></a>
 		</div>
-	</form>
+	</div>
+</form>
 </div>
-	<div class="text_area">
-		<label for="user_text"></label>
-		<textarea id="user_text" placeholder="your messag here !" cols="60" rows="10"></textarea>
+<div class="text_area">
+	<label for="user_text"></label>
+	<textarea id="user_text" placeholder="your messag here !" cols="60" rows="10"></textarea>
+</div>
+<div class="contact_footer">
+	<div class="img-fluid">
+		<img src="../../public/img/contactfooter.jpg">
 	</div>
-	<div class="contact_footer">
-		<div class="img-fluid">
-			<img src="../../public/img/contactfooter.jpg">
-		</div>
-		<div class="contact_footer_btn">
-			<button class="btn btn-sucess bg-success" type="submit"><span><!--&#8730;-->&#x2714;</span></button>
-		</div>
+	<div class="contact_footer_btn">
+		<button class="btn btn-sucess bg-success" type="submit"><span><!--&#8730;-->&#x2714;</span></button>
 	</div>
+</div>
 
 <?php include('../layout/footer.php'); ?>

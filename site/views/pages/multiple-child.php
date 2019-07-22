@@ -30,9 +30,9 @@
 							<option>girl</option>
 						</select>
 					</td>
-					<td>
+					<td  class="td_custom">
 						<label for="birth"></label>
-						<input class="input-group input-group-sm mb-3" type="date" name="birth" id="birth">
+						<input class="input-group input-group-sm mb-3 custom_birth_input" type="date" name="birth" id="birth">
 					</td>
 				</tr>
 				<tr>
@@ -48,7 +48,7 @@
 							<option>girl</option>
 						</select>
 					</td>
-					<td>
+					<td class="td_custom">
 						<label for="birth"></label>
 						<input class="input-group input-group-sm mb-3" type="date" name="birth" id="birth">
 					</td>
@@ -66,7 +66,7 @@
 							<option>girl</option>
 						</select>
 					</td>
-					<td>
+					<td class="td_custom">
 						<label for="birth"></label>
 						<input class="input-group input-group-sm mb-3" type="date" name="birth" id="birth">
 					</td>
@@ -84,7 +84,7 @@
 							<option>girl</option>
 						</select>
 					</td>
-					<td>
+					<td class="td_custom">
 						<label for="birth"></label>
 						<input class="input-group input-group-sm mb-3" type="date" name="birth" id="birth">
 					</td>

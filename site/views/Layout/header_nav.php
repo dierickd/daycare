@@ -33,6 +33,7 @@
                 <a class="nav-item nav-link" href="activity.php">Activity</a>
                 <a class="nav-item nav-link" href="about.php">About Us</a>
                 <a class="nav-item nav-link" href="contact.php">Contact</a>
+                <a class="nav-item nav-link" href="login.php">sign in / login</a>
             </div>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search">

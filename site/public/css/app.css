@@ -301,7 +301,6 @@ input
 {
   margin-top:20px;
   margin-bottom: 20px; 
-  border: 3px solid red;
   padding: 10%;
   
 }
@@ -415,124 +414,19 @@ input
   font-weight: bold;
 }
 
-
-/*
-* custom login page
-*/
-
-.border_log
+@media only screen and (min-width: 576px) 
 {
-  width: 100%;
-  border: 1px solid #000;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 5px;
-  position: relative;
-  background-image: url(../../public/img/login2.jpg);
-  margin-bottom: 20px;
-  box-shadow: 3px 3px #000, -1em 0 .4em #000;
+  .form_contact
+  {
+    display: flex;
+  }
+  .contact_subtitle_form
+  {
+    padding-top: 20px;
+  }
 }
 
-.avatar_login
-{
-  width: 180px;
-  height: auto;
-  margin: 20px 0;
-}
-form input
-{
-  opacity: 1;
-  width: 100%;
-}
 
-.login_register p
-{
-  font-weight: bold;
-  color:#fff;
-}
-.log_input{
-  background: rgba(255, 255, 255, .7);
-  padding: 15px;
-  margin-top: 20px;
-  width: 100%;
-}
-
-/*
-* custom login page
-*/
-
-.border_log
-{
-  width: 100%;
-  border: 1px solid #000;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 5px;
-  position: relative;
-  background-image: url(../../public/img/login2.jpg);
-  margin-bottom: 20px;
-  box-shadow: 3px 3px #000, -1em 0 .4em #000;
-}
-
-.avatar_login
-{
-  width: 180px;
-  height: auto;
-  margin-top: 15px;
-}
-
-.rounded-circle
-{
-  background-color:#00000080;
-  width: 20%;
-  height: auto;
-  padding-bottom: 18px;
-  padding-top: 10px;
-}
-form input
-{
-  border: 1px solid #000;
-}
-
-.login_register p
-{
-  font-weight: bold;
-  color:#fff;
-  text-decoration: none;
-}
-.login_register p:hover
-{
-  color: #7FC9FFFF;
-  background-color: #fff;
-}
-.login_register a 
-{
-  text-decoration: none;
-}
-
-/*
-* custom Sign In page
-*/
-.block
-{
-  border: 3px solid red;
-  background-image: url(../../public/img/signin.jpg);
-
-  width: 100%;
-  height: 800px;
-}
-.signIn_container
-{
- background-image: no-repeat fixed;
-}
-
-.bord_sign_in
-{
-  width: 100%;
-  border: 3px solid blue;
-}
 
 /*
 * custom multiple-children page
@@ -623,6 +517,43 @@ table td, table th, table
 
 }
 
+
+
+
+@media only screen and (min-width: 769px)
+{
+  .container_two
+  {
+    display: flex;
+    height: min-content;
+  }
+  .table-responsive-sm
+  {
+    width: 80%;
+  }
+  .pension_price_multiple
+  {
+    padding: 0;
+    margin-top:22px;
+    margin-bottom: 16px;
+    width: 20%;
+  }
+  .btn-primary
+  {
+    position: absolute;
+    left: 62%;
+    top: 105%;
+  }
+  .td_custom
+  {
+    display: flex;
+  }
+  .custom_birth_input
+  {
+    display: flex;
+    margin-top: 24px;
+  }
+}
 
 
 @media only screen and (min-width: 1000px)
@@ -727,32 +658,103 @@ table td, table th, table
     width: 60%;
     max-width: 600px;
   }
-}
-
-
-
-@media only screen and (min-width: 769px)
-{
   .container_two
   {
-    display: flex;
-    height: min-content;
-  }
-  .table-responsive-sm
-  {
-    width: 80%;
-  }
-  .pension_price_multiple
-  {
-    padding: 0;
-    margin-top:22px;
-    margin-bottom: 16px;
-    width: 20%;
-  }
-  .btn-primary
-  {
-    position: absolute;
-    left: 62%;
-    top: 105%;
+    position: relative;
   }
 }
+
+/*
+* custom login page
+*/
+
+.border_log
+{
+  width: 100%;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  position: relative;
+  background-image: url(../../public/img/login2.jpg);
+  margin-bottom: 20px;
+  box-shadow: 3px 3px #000, -1em 0 .4em #000;
+}
+
+.avatar_login
+{
+  width: 180px;
+  height: auto;
+  margin: 20px 0;
+}
+
+.rounded-circle
+{
+  background-color:#00000080;
+  width: 20%;
+  height: auto;
+  padding-bottom: 18px;
+  padding-top: 10px;
+}
+.login_form input
+{
+  opacity: 1;
+  width: 100%;
+}
+
+.login_register p
+{
+  font-weight: bold;
+  color:#fff;
+}
+.log_input{
+  background: rgba(255, 255, 255, .7);
+  padding: 15px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/*
+* custom Sign In page
+*/
+
+.block
+{
+  background-image: url(../../public/img/signin.jpg);
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+.signIn_container
+{
+  width: 70%;
+  height: 70%;
+  padding: 2%;
+ position: relative;
+ display:flex;
+  justify-content: center;
+  position: absolute;
+  right:15%;
+  background-color: rgba(255,255,255,0.4);
+}
+
+.bord_sign_in
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255,255,255,0.8);
+  align-items: center;
+}
+
+.avatar_signin
+{
+  width:35%;
+  height: auto;
+}
+

@@ -1,8 +1,13 @@
 <?php include('../layout/header_nav.php'); ?>
 <h1 class="text-center">login</h1>
 <div class="border_log text-center">
+<<<<<<< HEAD
+	<div class="rounded-circle">
+	<img class="avatar_login img-fluid text-center " src="https://quiz-digital-incollables.playbac.fr/uploads/media/avatar/0001/01/thumb_79_avatar_small.png" alt="logo login">
+	</div>
+	<br>
+	<br>
 	<img class="avatar_login img-fluid text-center" src="https://quiz-digital-incollables.playbac.fr/uploads/media/avatar/0001/01/thumb_79_avatar_small.png" alt="logo login">
-	
 	<div class="log_input text-center">
 		<form>
 			<label for="mail"></label>

@@ -673,3 +673,84 @@ table td, table th, table
     top: 105%;
   }
 }
+<<<<<<< HEAD
+
+/*
+* custom login page
+*/
+
+.border_log
+{
+  width: 100%;
+  height: 500px;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  position: relative;
+  background-image: url(../../public/img/login2.jpg);
+  margin-bottom: 20px;
+  box-shadow: 3px 3px #000, -1em 0 .4em #000;
+}
+
+.avatar_login
+{
+  width: 180px;
+  height: auto;
+  margin-top: 15px;
+}
+
+.rounded-circle
+{
+  background-color:#00000080;
+  width: 20%;
+  height: auto;
+  padding-bottom: 18px;
+  padding-top: 10px;
+}
+form input
+{
+  margin: 10px;
+  border: 1px solid #000;
+}
+
+.login_register p
+{
+  font-weight: bold;
+  color:#fff;
+  text-decoration: none;
+}
+.login_register p:hover
+{
+  color: #7FC9FFFF;
+  background-color: #fff;
+}
+.login_register a 
+{
+  text-decoration: none;
+}
+
+/*
+* custom Sign In page
+*/
+.block
+{
+  border: 3px solid red;
+  background-image: url(../../public/img/signin.jpg);
+
+  width: 100%;
+  height: 800px;
+}
+.signIn_container
+{
+ background-image: no-repeat fixed;
+}
+
+.bord_sign_in
+{
+  width: 100%;
+  border: 3px solid blue;
+}
+=======
+>>>>>>> b66fb9d20cef502e4e6c1fc9f1b3514adcfd0139

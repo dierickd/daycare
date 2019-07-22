@@ -649,16 +649,57 @@ table td, table th, table
 {
   width: 180px;
   height: auto;
-  margin-top: 20px;
+  margin-top: 15px;
+}
+
+.rounded-circle
+{
+  background-color:#00000080;
+  width: 20%;
+  height: auto;
+  padding-bottom: 18px;
+  padding-top: 10px;
 }
 form input
 {
   margin: 10px;
-  opacity: 1;
+  border: 1px solid #000;
 }
 
 .login_register p
 {
   font-weight: bold;
   color:#fff;
+  text-decoration: none;
+}
+.login_register p:hover
+{
+  color: #7FC9FFFF;
+  background-color: #fff;
+}
+.login_register a 
+{
+  text-decoration: none;
+}
+
+/*
+* custom Sign In page
+*/
+.block
+{
+  border: 3px solid red;
+  background-image: url(../../public/img/signin.jpg);
+
+  width: 100%;
+  height: 800px;
+}
+.signIn_container
+{
+ background-image: no-repeat fixed;
+}
+
+.bord_sign_in
+{
+  width: 100%;
+  border: 3px solid blue;
 }

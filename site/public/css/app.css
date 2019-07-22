@@ -410,6 +410,12 @@ input
   font-weight: bold;
 }
 
+.log_input{
+  background: rgba(255, 255, 255, .7);
+  padding: 15px;
+  margin-top: 20px;
+}
+
 
 
 @media only screen and (min-width: 1000px)

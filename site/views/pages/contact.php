@@ -34,7 +34,7 @@
 					</select>
 				</div>
 				<div class="moreChild">
-					<a href="#" >more one child here !</a>
+					<a href="multiple-child.php" >more one child here !</a>
 				</div>
 			</div>
 		</div>

@@ -20,7 +20,7 @@
     </header>
     <!-- navigation menu -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" data-toggle="sticky-onscroll">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="login.php">
             <img src="../../public/img/logo.jpg" alt="site logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

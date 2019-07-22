@@ -11,6 +11,11 @@ img {
 a {
   text-decoration: none;
 }
+
+
+/*
+** commentaire
+*/
 .sticky.is-sticky {
   position: fixed;
   left: 0;

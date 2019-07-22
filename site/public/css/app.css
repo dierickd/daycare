@@ -552,6 +552,11 @@ form input
     flex-direction: column;
     justify-content: flex-start;
   }
+    
+  .log_input{
+    width: 60%;
+    max-width: 600px;
+  }
 }
 
 /*
@@ -668,7 +673,6 @@ table td, table th, table
     top: 105%;
   }
 }
-<<<<<<< HEAD
 
 /*
 * custom login page
@@ -747,5 +751,3 @@ form input
   width: 100%;
   border: 3px solid blue;
 }
-=======
->>>>>>> b66fb9d20cef502e4e6c1fc9f1b3514adcfd0139

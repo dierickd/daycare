@@ -552,6 +552,11 @@ form input
     flex-direction: column;
     justify-content: flex-start;
   }
+    
+  .log_input{
+    width: 60%;
+    max-width: 600px;
+  }
 }
 
 /*

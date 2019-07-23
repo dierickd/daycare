@@ -11,26 +11,26 @@
 			<form>
 				<div class="email_signin text-center">
 					<label for="mail"></label>
-					<input type="email" name="mail sign" id="mail" placeholder="email address" required>
+					<input class="form-control input_signin" type="email" name="mail sign" id="mail" placeholder="email address" required>
 				</div>
 				<div class="username_signin text-center">
 					<label for="username"></label>
-					<input type="text" name="username sign" id="username" placeholder="your username" required>
+					<input class="form-control input_signin" type="text" name="username sign" id="username" placeholder="your username" required>
 				</div>
 				<div class="birth_signin text-center">
 					<label for="birth"></label>
-					<input type="date" name="birth sign" id="birth"  required="">
+					<input type="date" name="birth sign" id="birth"  required="" class="form-control birth">
 				</div>
 				<div class="phone_signin">
 					<label for="phone"></label>
-					<input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
+					<input class="form-control input_signin" type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
 				</div>
 				<div class="child_number_signin">
 					<label for="child"></label>
-					<input type="text" name="child number" id="child" placeholder="how many child have you got ?" required>
+					<input class="form-control input_signin" type="text" name="child number" id="child" placeholder="how many child have you got ?" required>
 				</div>
 				<div class="submit_signin">
-					<button class="btn btn-outline-success submit_signin" type="submit">Submit form</button>
+					<button class="btn btn-outline-success submit_signin" type="submit">Submit</button>
 				</div>
 			</form>
 		</div>

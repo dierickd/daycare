@@ -735,8 +735,8 @@ table td, table th, table
   width: 70%;
   height: 70%;
   padding: 2%;
- position: relative;
- display:flex;
+  position: relative;
+  display:flex;
   justify-content: center;
   position: absolute;
   right:15%;
@@ -750,11 +750,109 @@ table td, table th, table
   flex-direction: column;
   background-color: rgba(255,255,255,0.8);
   align-items: center;
+  padding: 2%;
 }
 
 .avatar_signin
 {
-  width:35%;
+  width:70%;
   height: auto;
 }
 
+.input_signin
+{
+  margin-bottom: 1%;
+}
+
+.input_signin
+{
+  font-size: 0.6em;
+}
+.birth
+{
+  font-size: 0.7em;
+}
+.birth_signin
+{
+  margin-bottom: -20px;
+}
+.submit_signin
+{
+  display: grid;
+  margin-top: 18%;
+}
+@media only screen and (min-width: 400px)
+{
+  .avatar_signin
+  {
+    width:150px;
+    height: auto;
+  }
+  .submit_signin
+  {
+    display: grid;
+    margin-top: 20%;
+  }
+}
+@media only screen and (min-width: 690px)
+{
+  .avatar_signin
+  {
+    width:120px;
+    height: auto;
+  }
+  .submit_signin
+  {
+    display: grid;
+    margin-top: 20%;
+  }
+
+}
+@media only screen and (min-width: 890px)
+{
+  .avatar_signin
+  {
+    width:130px;
+    height: auto;
+  }
+  .submit_signin
+  {
+    display: grid;
+    margin-top: 7%;
+  }
+}
+@media only screen and (min-width: 1100px)
+{
+  .avatar_signin
+  {
+    width:140px;
+    height: auto;
+  }
+  .form_signin
+  {
+    width: 50%;
+  }
+  .submit_signin
+  {
+    margin-top: 5%;
+  }
+  .input_signin
+  {
+    font-size: 1em;
+  }
+.birth
+  {
+    font-size: 1em;
+    padding-left: 70px;
+  }
+  .submit_signin
+  {
+    display: grid;
+    margin-top: 1%;
+  }
+  .input_signin
+  {
+    margin-bottom: 0%;
+  }
+
+}

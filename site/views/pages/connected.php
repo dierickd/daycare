@@ -24,7 +24,7 @@
 					<input class="btn btn-outline-info save_seetings_connected" type="submit" value="save change">
 				</div>
 				<div class="delete_connected">
-					<input class="btn btn-danger delete_btn_connected" type="submit" value="Delete your account">
+					<input class="btn btn-outline-danger delete_btn_connected" type="submit" value="Delete your account">
 				</div>
 			</form>
 		</div>

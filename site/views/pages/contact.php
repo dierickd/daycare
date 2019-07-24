@@ -4,8 +4,8 @@
 <h1 class="contact_h1">Make your reservation Now !</h1>
 <div class="form_container">
 	<form class="form_contact text-center">
-		<div class="form-col">
-			<div class="col-md-4 mb-3">
+		<div class="form-col_contact">
+			<div class="col-md-4 mb-3 your_child_form_contact">
 				<h2 class="contact_subtitle_form">Your Child</h2>
 				<label for="validationServer01" class="form_title">First name child</label>
 				<input type="text" class="form-control is-valid text-center" id="validationServer01" placeholder="First name" value="Mark" required>
@@ -13,14 +13,14 @@
 					Looks good!
 				</div>
 			</div>
-			<div class="col-md-4 mb-3">
+			<div class="col-md-4 mb-3 your_child_form_contact">
 				<label for="validationServer02" class="form_title">Last name child</label>
 				<input type="text" class="form-control is-valid text-center" id="validationServer02" placeholder="Last name" value="Otto" required>
 				<div class="valid-feedback">
 					Looks good!
 				</div>
 			</div>
-			<div class="col-md-4 mb-3">
+			<div class="col-md-4 mb-3 your_child_form_contact">
 				<label class="form_title">Boy or girl ?</label>
 				<div class="input-group mb-3">
 					<div class="input-group-prepend">
@@ -43,13 +43,13 @@
 		<div class="form_reservation_date">
 			<form>
 				<h2 class="contact_subtitle_form">Reservation date</h2>
-				<label for="arrival" class="contact_label">Arrival</label>
+				<label for="arrival" class="contact_label_arrival">Arrival</label>
 				<input class="input_arrival" type="date" name="arrival" id="arrival">
-				<img src="https://cdn.pixabay.com/photo/2019/02/26/09/19/calender-4021509_960_720.png" alt="icon calendar" class="icon_calendar">
+				<img src="https://cdn.pixabay.com/photo/2019/02/26/09/19/calender-4021509_960_720.png" alt="icon calendar" class="icon_calendar_contact">
 				<br/>
-				<label for="departure" class="contact_label">departure</label>
+				<label for="departure" class="contact_label_departure">departure</label>
 				<input class="input_departure" type="date" name="departure" id="departure">
-				<img src="https://cdn.pixabay.com/photo/2019/02/26/09/19/calender-4021509_960_720.png" alt="icon calendar" class="icon_calendar">
+				<img src="https://cdn.pixabay.com/photo/2019/02/26/09/19/calender-4021509_960_720.png" alt="icon calendar" class="icon_calendar_contact">
 			</form>
 		</div>
 		<div class="pension_plan">

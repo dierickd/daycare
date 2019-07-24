@@ -20,7 +20,7 @@
     </header>
     <!-- navigation menu -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" data-toggle="sticky-onscroll">
-        <a class="navbar-brand" href="login.php">
+        <a class="navbar-brand" href="connected.php">
             <img src="../../public/img/logo.jpg" alt="site logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,6 +33,7 @@
                 <a class="nav-item nav-link" href="activity.php">Activity</a>
                 <a class="nav-item nav-link" href="about.php">About Us</a>
                 <a class="nav-item nav-link" href="contact.php">Contact</a>
+                <a class="nav-item nav-link" href="login.php">sign in / login</a>
             </div>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search">

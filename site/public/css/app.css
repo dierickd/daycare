@@ -334,6 +334,7 @@ fieldset{
   border-radius: .25rem;
   color: #495057;
   text-align: center;
+  min-width: 220px;
 }
 .contact_form .pension_plan{
   margin-top: 25px;
@@ -375,10 +376,6 @@ fieldset{
 
 
 
-}
-
-
-
 /* 
 * custom login page
 */
@@ -411,91 +408,44 @@ fieldset{
 
 .login_register p
 {
-  font-weight: bold;
-  color:#fff;
-}
-.log_input{
-  background: rgba(255, 255, 255, .7);
-  padding: 15px;
-  margin-top: 20px;
-  width: 100%;
-}
-
-/*
-* custom login page
-*/
-
-.border_log
-{
-  width: 100%;
-  border: 1px solid #000;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 5px;
-  position: relative;
-  background-image: url(../../public/img/login2.jpg);
-  margin-bottom: 20px;
-  box-shadow: 3px 3px #000, -1em 0 .4em #000;
+  .form_contact
+  {
+    background-color: rgba(127,0,110,0.1);
+  }
+  .form-col_contact
+  {
+    width: 100% ; 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .your_child_form_contact
+  {
+    max-width: 100%;
+  }
 }
 
-.avatar_login
+@media only screen and (max-width: 768px) 
 {
-  width: 180px;
-  height: auto;
-  margin-top: 15px;
+  .form_contact
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #000;
+    background-color: rgba(127,0,110,0.1);
+  }
+  .contact_subtitle_form
+  {
+    padding-top: 20px;
+  }
+   .form_reservation_date
+  {
+     border:1px solid #000;
+  }
 }
 
-.rounded-circle
-{
-  background-color:#00000080;
-  width: 20%;
-  height: auto;
-  padding-bottom: 18px;
-  padding-top: 10px;
-}
-form input
-{
-  border: 1px solid #000;
-}
 
-.login_register p
-{
-  font-weight: bold;
-  color:#fff;
-  text-decoration: none;
-}
-.login_register p:hover
-{
-  color: #7FC9FFFF;
-  background-color: #fff;
-}
-.login_register a 
-{
-  text-decoration: none;
-}
-
-/*
-* custom Sign In page
-*/
-.block
-{
-  border: 3px solid red;
-  background-image: url(../../public/img/signin.jpg);
-
-  width: 100%;
-  height: 800px;
-}
-.signIn_container
-{
- background-image: no-repeat fixed;
-}
-
-.bord_sign_in
-{
-  width: 100%;
-  border: 3px solid blue;
-}
 
 /*
 * custom multiple-children page
@@ -590,27 +540,325 @@ table td, table th, table
 
 @media only screen and (min-width: 769px)
 {
-  .container_two
+  width: 180px;
+  height: auto;
+  margin: 20px 0;
+}
+
+.rounded-circle
+{
+  background-color:#00000080;
+  width: 20%;
+  height: auto;
+  padding-bottom: 18px;
+  padding-top: 10px;
+}
+.login_form input
+{
+  opacity: 1;
+  width: 100%;
+}
+
+.login_register p
+{
+  font-weight: bold;
+  color:#fff;
+}
+.log_input{
+  background: rgba(255, 255, 255, .7);
+  padding: 15px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/*
+* custom Sign In page
+*/
+
+.block
+{
+  background-image: url(../../public/img/signin.jpg);
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+.signIn_container
+{
+  width: 70%;
+  height: 70%;
+  padding: 2%;
+  position: relative;
+  display:flex;
+  justify-content: center;
+  position: absolute;
+  right:15%;
+  background-color: rgba(255,255,255,0.4);
+}
+
+.bord_sign_in
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255,255,255,0.8);
+  align-items: center;
+  padding: 2%;
+}
+
+.avatar_signin
+{
+  width:70%;
+  height: auto;
+}
+
+.input_signin
+{
+  margin-bottom: 1%;
+}
+
+.input_signin
+{
+  font-size: 0.6em;
+}
+.birth
+{
+  font-size: 0.7em;
+}
+.birth_signin
+{
+  margin-bottom: -20px;
+}
+.submit_signin
+{
+  display: grid;
+  margin-top: 18%;
+}
+@media only screen and (min-width: 400px)
+{
+  .avatar_signin
+  {
+    width:150px;
+    height: auto;
+  }
+  .submit_signin
+  {
+    display: grid;
+    margin-top: 20%;
+  }
+}
+@media only screen and (min-width: 690px)
+{
+  .avatar_signin
+  {
+    width:120px;
+    height: auto;
+  }
+  .submit_signin
+  {
+    display: grid;
+    margin-top: 20%;
+  }
+
+}
+@media only screen and (min-width: 890px)
+{
+  .avatar_signin
+  {
+    width:130px;
+    height: auto;
+  }
+  .submit_signin
+  {
+    display: grid;
+    margin-top: 7%;
+  }
+}
+@media only screen and (min-width: 1100px)
+{
+  .avatar_signin
+  {
+    width:140px;
+    height: auto;
+  }
+  .form_signin
+  {
+    width: 50%;
+  }
+  .submit_signin
+  {
+    margin-top: 5%;
+  }
+  .input_signin
+  {
+    font-size: 1em;
+    margin-bottom: -12px;
+  }
+.birth
+  {
+    font-size: 1em;
+    padding-left: 70px;
+  }
+  .submit_signin
+  {
+    display: grid;
+    margin-top: 5%;
+  }
+}
+
+/*
+* custom connected page
+*/
+
+.container_connected
+{
+ display: flex;
+ margin-bottom: 40px;
+}
+.border_seeting_picture_child
+{
+  /*border: 3px solid orange;*/
+  display: flex;
+  flex-direction: column;
+}
+.border_seeting_connected
+{
+  border: 1px dotted black;
+  background-color: rgba(127,0,0,0.2);
+  margin-bottom: 40px;
+}
+.form_seeting_connected
+{
+  /*border: 3px solid brown;*/
+  display: flex;
+  flex-direction: column;
+
+}
+.username_connected
+{
+  display: inline-block;
+  width: 100%;
+}
+.username_connected_input, .password_connected_input, .email_connected_input
+{
+  width: 42%;
+  height: 32px;
+  margin-top: 14px;
+}
+.border_child_picture_connected
+{
+  border: 1px dotted black;
+  background-color: rgba(0,19,127,0.4);
+  height: 300px;
+}
+.logo_pen_seeting_connected
+{
+  width:37px;
+  height: 33px;
+  background-color: grey;
+}
+.save_seetings_connected
+{
+  width: 40%;
+}
+.delete_connected
+{
+  margin-top: 25px;
+  width: 100%;
+  display:grid;
+}
+.img_child_connected
+{
+  height: 120px;
+  text-align: center;
+  padding-top: 40px;
+}
+.upload_img_child_connected
+{
+  margin-top: 8%;
+  padding-left: 7px;
+}
+.save_picture_connected
+{
+  margin-top: 17px;
+  margin-left: 165px;
+}
+.birth_connected
+{
+  width: 87%;
+}
+.submit_row_table_connected
+{
+  margin-top: 23px;
+}
+.logo_pen_connected
+{
+  width: 32px;
+  margin-top: 27px;
+}
+.information_connected
+{
+  text-decoration: underline;
+  font-size: 0.8em;
+}
+
+@media only screen and (min-width: 1080px)
+{
+  .save_picture_connected
+  {
+    margin-left: -54px;
+    margin-top: 51px;
+  }
+}
+
+
+@media only screen and (min-width: 1200px)
+{
+  .border_seeting_picture_child
+  {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .border_seeting_connected
+  {
+    width: 40%;
+    height: 294px;
+  }
+  .border_child_picture_connected
+  {
+    width: 40%;
+  }
+  .form_seeting_connected
+  {
+    margin-top: 30px;
+    margin-left: 19px;
+  }
+  .upload_img_child_connected
   {
     display: flex;
-    height: min-content;
   }
-  .table-responsive-sm
+  .save_picture_connected
   {
-    width: 80%;
+    margin-left: 4%;
+    margin-top: 10%;
   }
-  .pension_price_multiple
+  .delete_btn_connected
   {
-    padding: 0;
-    margin-top:22px;
-    margin-bottom: 16px;
-    width: 20%;
+    width: 90%;
+    margin-left:4%;
   }
-  .btn-primary
+  .table_form_children_connected
   {
-    position: absolute;
-    left: 62%;
-    top: 105%;
+    width: 100%;
+  }
+  .birth_connected
+  {
+    margin-left: 6%;
   }
 }
 

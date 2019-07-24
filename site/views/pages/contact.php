@@ -3,7 +3,6 @@
 
 <h1 class="contact_h1">Make your reservation Now !</h1>
 <div class="form_container">
-<<<<<<< HEAD
 	<form action="" method="POST" class="contact_form">
 		<div class="main_flex">
 			<fieldset class="field_child">
@@ -33,36 +32,11 @@
 							<option value="boy">boy</option>
 							<option value="girl">girl</option>
 						</select>
-=======
-	<form class="form_contact text-center">
-		<div class="form-col_contact">
-			<div class="col-md-4 mb-3 your_child_form_contact">
-				<h2 class="contact_subtitle_form">Your Child</h2>
-				<label for="validationServer01" class="form_title">First name child</label>
-				<input type="text" class="form-control is-valid text-center" id="validationServer01" placeholder="First name" value="Mark" required>
-				<div class="valid-feedback">
-					Looks good!
-				</div>
-			</div>
-			<div class="col-md-4 mb-3 your_child_form_contact">
-				<label for="validationServer02" class="form_title">Last name child</label>
-				<input type="text" class="form-control is-valid text-center" id="validationServer02" placeholder="Last name" value="Otto" required>
-				<div class="valid-feedback">
-					Looks good!
-				</div>
-			</div>
-			<div class="col-md-4 mb-3 your_child_form_contact">
-				<label class="form_title">Boy or girl ?</label>
-				<div class="input-group mb-3">
-					<div class="input-group-prepend">
-						<label class="input-group-text" for="inputGroupSelect01">Select</label>
->>>>>>> 3573f8ca9327cfbac90a0b351b3dc41fca44e9c7
 					</div>
 				</div>
 				<div class="items_child moreChild">
 					<a href="multiple-child.php" >more one child here !</a>
 				</div>
-<<<<<<< HEAD
 			</fieldset>
 
 			<fieldset class="field_option">
@@ -103,38 +77,6 @@
 							</div>
 						</div>
 					</div>
-=======
-			</div>
-		</div>
-	</form>
-	<div class="border_three-part">
-		<div class="form_reservation_date">
-			<form>
-				<h2 class="contact_subtitle_form">Reservation date</h2>
-				<label for="arrival" class="contact_label_arrival">Arrival</label>
-				<input class="input_arrival" type="date" name="arrival" id="arrival">
-				<img src="https://cdn.pixabay.com/photo/2019/02/26/09/19/calender-4021509_960_720.png" alt="icon calendar" class="icon_calendar_contact">
-				<br/>
-				<label for="departure" class="contact_label_departure">departure</label>
-				<input class="input_departure" type="date" name="departure" id="departure">
-				<img src="https://cdn.pixabay.com/photo/2019/02/26/09/19/calender-4021509_960_720.png" alt="icon calendar" class="icon_calendar_contact">
-			</form>
-		</div>
-		<div class="pension_plan">
-			<form>
-				<h2 class="contact_subtitle_form">Pension plan</h2>
-				<div class="form-check">
-					<input class="form-check-input-half_pension" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-					<label class="form-check-label-half-pension" for="exampleRadios1">
-						Half pension
-					</label>
-				</div>
-				<div class="form-check">
-					<input class="form-check-input-complete-pension" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-					<label class="form-check-label-complete-pension" for="exampleRadios2">
-						complete pension
-					</label>
->>>>>>> 3573f8ca9327cfbac90a0b351b3dc41fca44e9c7
 				</div>
 			</fieldset>
 		</div>

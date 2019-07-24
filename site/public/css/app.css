@@ -839,6 +839,7 @@ table td, table th, table
   .input_signin
   {
     font-size: 1em;
+    margin-bottom: -12px;
   }
 .birth
   {
@@ -848,11 +849,159 @@ table td, table th, table
   .submit_signin
   {
     display: grid;
-    margin-top: 1%;
+    margin-top: 5%;
   }
-  .input_signin
-  {
-    margin-bottom: 0%;
-  }
+}
 
+/*
+* custom connected page
+*/
+
+.container_connected
+{
+ display: flex;
+ margin-bottom: 40px;
+}
+.border_seeting_picture_child
+{
+  /*border: 3px solid orange;*/
+  display: flex;
+  flex-direction: column;
+}
+.border_seeting_connected
+{
+  border: 1px dotted black;
+  background-color: rgba(127,0,0,0.2);
+  margin-bottom: 40px;
+}
+.form_seeting_connected
+{
+  /*border: 3px solid brown;*/
+  display: flex;
+  flex-direction: column;
+
+}
+.username_connected
+{
+  display: inline-block;
+  width: 100%;
+}
+.username_connected_input, .password_connected_input, .email_connected_input
+{
+  width: 42%;
+  height: 32px;
+  margin-top: 14px;
+}
+.border_child_picture_connected
+{
+  border: 1px dotted black;
+  background-color: rgba(0,19,127,0.4);
+  height: 300px;
+}
+.logo_pen_seeting_connected
+{
+  width:37px;
+  height: 33px;
+  background-color: grey;
+}
+.save_seetings_connected
+{
+  width: 40%;
+}
+.delete_connected
+{
+  margin-top: 25px;
+  width: 100%;
+  display:grid;
+}
+.img_child_connected
+{
+  height: 120px;
+  text-align: center;
+  padding-top: 40px;
+}
+.upload_img_child_connected
+{
+  margin-top: 8%;
+  padding-left: 7px;
+}
+.save_picture_connected
+{
+  margin-top: 17px;
+  margin-left: 165px;
+}
+.birth_connected
+{
+  width: 87%;
+}
+.submit_row_table_connected
+{
+  margin-top: 23px;
+}
+.logo_pen_connected
+{
+  width: 32px;
+  margin-top: 27px;
+}
+.information_connected
+{
+  text-decoration: underline;
+  font-size: 0.8em;
+}
+
+@media only screen and (min-width: 1080px)
+{
+  .save_picture_connected
+  {
+    margin-left: -54px;
+    margin-top: 51px;
+  }
+}
+
+
+@media only screen and (min-width: 1200px)
+{
+  .border_seeting_picture_child
+  {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .border_seeting_connected
+  {
+    width: 40%;
+    height: 294px;
+  }
+  .border_child_picture_connected
+  {
+    width: 40%;
+  }
+  .form_seeting_connected
+  {
+    margin-top: 30px;
+    margin-left: 19px;
+  }
+  .upload_img_child_connected
+  {
+    display: flex;
+  }
+  .save_picture_connected
+  {
+    margin-left: 4%;
+    margin-top: 10%;
+  }
+  .delete_btn_connected
+  {
+    width: 90%;
+    margin-left:4%;
+  }
+  .table_form_children_connected
+  {
+    width: 100%;
+  }
+  .birth_connected
+  {
+    margin-left: 6%;
+  }
 }

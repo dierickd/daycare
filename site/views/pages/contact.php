@@ -88,7 +88,7 @@
 		
 		<div class="contact_footer">
 			<div class="contact_footer_btn">
-				<button class="btn btn-sucess bg-success" type="submit"><span><!--&#8730;-->&#x2714;</span></button>
+				<button class="btn" type="submit"><span>Soumettre &#x2714;</span></button>
 			</div>
 		</div>
 		

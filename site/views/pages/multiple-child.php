@@ -1,127 +1,106 @@
 <?php include('../layout/header_nav.php'); ?>
-<h1 class="text-center">Your childrens holliday !</h1>
-<div class="container_two">
-	<div class="table-responsive-sm">
-		<table class="table table-striped table-dark text-center">
+<div class="site-content">
+	<h1 class="text-center">Your childrens holliday !</h1>
+	<form action="#" method="post">
+		<div class="btn_submit_add_child">
+			<input type="submit" value="Validate registration">
+		</div>
+		<table class="table_add_child">
 			<thead>
 				<tr>
-					<th scope="col">
-						Firstname
-					</th>
-					<th scope="col">
-						Sex
-					</th>
-					<th scope="col">
-						Date of birth
-					</th>
+					<th>#</th>
+					<th scope="col">Firstname</th>
+					<th scope="col">Sex</th>
+					<th scope="col">Date of birth</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
+					<td>Child 1</td>
+					<td class="label"><label for="firstname">Full name</label></td>
 					<td>
-						<label for="firstname"></label>
-						<input type="text" name="firstname" class="form-control" id="firstname" placeholder="max">
+						<input type="text" name="firstname" class="item-input" id="firstname" placeholder="do john">
 					</td>
+					<td class="label"><label for="sex">Sex</label></td>
 					<td>
-						<label for="sex"></label>
-						<select class="form-control" id="sex">
+						<select class="item-input" id="sex">
 							<option selected>choose</option>
-							<option>boy</option>
-							<option>girl</option>
+							<option name="boy">boy</option>
+							<option name="girl">girl</option>
 						</select>
 					</td>
-					<td  class="td_custom">
-						<label for="birth"></label>
-						<input class="input-group input-group-sm mb-3 custom_birth_input" type="date" name="birth" id="birth">
+					<td class="label"><label for="birth">Birth</label></td>
+					<td>
+						<input class="item-input" type="date" name="birth" id="birth">
 					</td>
 				</tr>
 				<tr>
-					<label for="firstanme"></label>
+					<td>Child 2</td>
+					<td class="label"><label for="firstname">Full name</label></td>
 					<td>
-						<input type="text" name="firstname" class="form-control" id="firstname" placeholder="robert">
+						<input type="text" name="firstname" class="item-input" id="firstname" placeholder="do john">
 					</td>
-					<label for="sex"></label>
+					<td class="label"><label for="sex">Sex</label></td>
 					<td>
-						<select class="form-control" id="sex">
+						<select class="item-input" id="sex">
 							<option selected>choose</option>
-							<option>boy</option>
-							<option>girl</option>
+							<option name="boy">boy</option>
+							<option name="girl">girl</option>
 						</select>
 					</td>
-					<td class="td_custom">
-						<label for="birth"></label>
-						<input class="input-group input-group-sm mb-3" type="date" name="birth" id="birth">
+					<td class="label"><label for="birth">Birth</label></td>
+					<td>
+						<input class="item-input" type="date" name="birth" id="birth">
 					</td>
 				</tr>
 				<tr>
-					<label for="firstanme"></label>
+					<td>Child 3</td>
+					<td class="label"><label for="firstname">Full name</label></td>
 					<td>
-						<input type="text" name="firstname" class="form-control" id="firstname" placeholder="Denzel">
+						<input type="text" name="firstname" class="item-input" id="firstname" placeholder="do john">
 					</td>
-					<label for="sex"></label>
+					<td class="label"><label for="sex">Sex</label></td>
 					<td>
-						<select class="form-control" id="sex">
+						<select class="item-input" id="sex">
 							<option selected>choose</option>
-							<option>boy</option>
-							<option>girl</option>
+							<option name="boy">boy</option>
+							<option name="girl">girl</option>
 						</select>
 					</td>
-					<td class="td_custom">
-						<label for="birth"></label>
-						<input class="input-group input-group-sm mb-3" type="date" name="birth" id="birth">
+					<td class="label"><label for="birth">Birth</label></td>
+					<td>
+						<input class="item-input" type="date" name="birth" id="birth">
 					</td>
 				</tr>
-				<tr>
-					<label for="firstanme"></label>
-					<td>
-						<input type="text" name="firstname" class="form-control" id="firstname" placeholder="Elodie">
+				<tr class="btn_add_child">
+					<td colspan="4">
+						<a href="#" title="add child"><img  class="logo_add_child" src="https://cdn.pixabay.com/photo/2017/08/16/00/29/add-person-2646097_960_720.png" alt="Logo add child"></a>
 					</td>
-					<label for="sex"></label>
-					<td>
-						<select class="form-control" id="sex">
-							<option selected>choose</option>
-							<option>boy</option>
-							<option>girl</option>
-						</select>
-					</td>
-					<td class="td_custom">
-						<label for="birth"></label>
-						<input class="input-group input-group-sm mb-3" type="date" name="birth" id="birth">
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<a href="#" title="add child"><img  class="logo_add_child" src="https://cdn.pixabay.com/photo/2017/08/16/00/29/add-person-2646097_960_720.png" alt="logo addition of child"></a>
-					</td>
-					<td></td>
-					<td></td>
 				</tr>
 			</tbody>
 		</table>
+	</form>
+
+	<div class="price">
+		<div class="main_price">
+			<a href="#"><img src="https://icongr.am/fontawesome/shopping-cart.svg?color=fefefe" alt="logo add command"></a>
+			<div class="content_price">
+				<h4 class="contact_subtitle_form">pension price</h4>
+				<p class="tarif"> 99 $ / per day</p>
+			</div>
+		</div>
 	</div>
-	<div class="pension_price_multiple text-center">
-		<h3>Pension price</h3>
-		<p class="print_price_multiple">
-			396 $ / per day
-		</p>
-		<br/>
-		<a href="#"><img src="https://image.flaticon.com/icons/png/512/57/57563.png" alt="logo add command" class="logo_add_command_multiple"></a>
-		<p class="pension_price_multiple_italic">
-			please submit before adding your kart
+
+	<div class="reduction"><h2 class="text-center">
+		Reduction
+	</h2>
+	<div class="reduction-content text-center">
+		<p>
+			For each child registered, 10 % discount is offered to you and increases by 10% per year of vacation
 		</p>
 	</div>
+	</div>
+
 </div>
-</div>
-<div class="btn_container">
-<input class="btn btn-primary" type="submit" value="Submit">
-</div>
-<div class="reduction"><h2 class="text-center">
-	 Réduction
-</h2>
-<div class="reduction-content text-center">
-	<p>
-		For each child registered, 10 % discount is offered to you and increases by 10% per year of vacation
-	</p>
-</div>
-</div>
+
 <?php include('../layout/footer.php'); ?>

@@ -172,9 +172,9 @@ fieldset{
   flex-direction: column;
   margin-bottom: 10px;
 }
-.contact_form .content_resa input{
+input[type=date]{
   background: url(https://cdn.pixabay.com/photo/2019/02/26/09/19/calender-4021509_960_720.png);
-  background-size: 1.3rem;
+  background-size: 1.2rem;
   background-position-y: center;
   background-position-x: 5px;
   background-repeat: no-repeat;
@@ -197,18 +197,18 @@ fieldset{
 .contact_form .content_flex{
   margin-bottom: 25px;
 }
-.field_option .price{
+.price{
   background: #666;
   border-radius: .25rem;
   box-shadow: 0 0 40px rgb(200, 200, 200);
 }
-.field_option .main_price{
+.main_price{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: .495rem 2rem;
 }
-.field_option .main_price{
+.main_price{
   color: #fefefe;
 }
 .price>.main_price>a>img{
@@ -282,91 +282,79 @@ fieldset{
 /*
 * custom multiple-children page
 */
-
-h1
-{
-  margin-top: 20px;
-  text-decoration: underline;
-  margin-bottom: 40px;
+.btn_submit_add_child{
+  text-align: center;
+  margin-top: 50px;
 }
-.logo_add_child
-{
-  width:30px;
-  height: auto;
+.btn_submit_add_child input{
+  border: 1px solid #28a745;
+  background: #28a745;
+  color: #ffffff;
+  padding: 0.25rem 1.25rem;
 }
-table
-{
+.table_add_child input[type=date]{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(169, 169, 169);
+  text-align-last: left;
+  padding-left: 50px;
+  background-color: snow;
+}
+.site-content .price{
+  margin-bottom: 25px;
+}
+.site-content{
+  margin-top: 50px;
+}
+.table_add_child img{
+  max-width: 45px;
+}
+.table_add_child{
+  margin-bottom: 25px;
+  margin-top: 10px;
   width: 100%;
-  height: auto;
 }
-
-table td, table th, table
-{
-  border: 2.5px solid #000;
+.table_add_child thead{
+  display: none;
 }
-
-#birth
-{
-  
-  margin-bottom: 20px;
-}
-.pension_price_multiple
-{
-  margin-top: 80px;
-  border: 3px solid #000;
-}
-
-.pension_price_multiple h3
-{
-  padding-top: 20px;
-  text-decoration: underline;
-}
-
-.print_price_multiple
-{
-  padding-top: 30px;
-  color: rgb(0,123,255);
-  font-weight: bold;
-  font-size: 3em;
-}
-.logo_add_command_multiple
-{
-  width: 80px;
-  height: auto;
-  padding-bottom: 20px;
-}
-.pension_price_multiple_italic
-{
-  font-style: italic;
-  text-decoration: underline;
-}
-.container_two
-{
-  margin-bottom: 40px;
-}
-
-.reduction
-{
-  margin-top: 80px;
-}
-.reduction-content
-{
-  width: 100%;
-  border: 3px solid grey;
-}
-.reduction-content p
-{
-  font-size: 0.7em;
-  font-weight: bold;
-  font-style: italic;
-}
-.btn_container
-{
-  width: 100%;
+.table_add_child tbody td{
   display: flex;
-  flex-direction: column;
-
+  padding: 0 8px;
 }
+.table_add_child tr{
+  border-bottom: 1px solid #000;
+}
+.table_add_child a{
+  margin: 0 auto;
+}
+.table_add_child .label{
+  font-weight: bold;
+}
+.table_add_child tbody tr:nth-child(odd){
+  background: rgba(200, 200, 200, .7);
+}
+.table_add_child tbody tr:nth-child(even){
+  background: rgba(224, 224, 224, .7);
+}
+.table_add_child tbody tr.btn_add_child{
+  border: none;
+  background: none;
+  text-align: right;
+}
+.table_add_child tr td:first-child{
+  margin-top: 15px;
+}
+.table_add_child tr td:last-child{
+  margin-bottom: 15px;
+}
+.table_add_child input, .table_add_child select{
+  width: 100%;
+  padding: 5px;
+  border-radius: .25rem;
+  border: 1px solid rgb(169, 169, 169);
+}
+
+
 /*
 * custom Sign In page
 */
@@ -727,6 +715,8 @@ table td, table th, table
   {
     display: flex;
   }
+    
+
 }
 
 @media only screen and (min-width: 890px){
@@ -740,6 +730,45 @@ table td, table th, table
     display: grid;
     margin-top: 7%;
   }
+  
+  /*
+  * custom multiple-children page
+  */
+    
+  .btn_submit_add_child{
+    text-align: right;
+    margin-top: 50px;
+  }
+  .table_add_child input[type=date]{
+    width: auto;
+  }
+  .table_add_child tr td:last-child{
+    width: 220px;
+  }
+  .table_add_child tbody tr{
+    border: none;
+  }
+  .table_add_child tbody td{
+    display: table-cell;
+    padding: 10px;
+  }
+  .table_add_child thead{
+    display: contents;
+  }
+  .table_add_child thead tr{
+    background: rgb(48, 132, 215);
+  }
+  .table_add_child .label{
+    display: none;
+  }
+  .table_add_child thead tr{
+    border-bottom: 1px solid rgb(169, 169, 169);
+    color: #fefefe;
+  }
+  .table_add_child thead th{
+    padding: 10px;
+  }
+
 }
 
 @media only screen and (min-width: 1080px){

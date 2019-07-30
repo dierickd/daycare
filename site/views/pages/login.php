@@ -5,11 +5,7 @@
 		<img class="avatar_login img-fluid text-center " src="https://quiz-digital-incollables.playbac.fr/uploads/media/avatar/0001/01/thumb_79_avatar_small.png" alt="logo login">
 	</div>
 	<div class="log_input text-center">
-<<<<<<< HEAD
 		<form class="form_log">
-=======
-		<form class="login_form">
->>>>>>> 3573f8ca9327cfbac90a0b351b3dc41fca44e9c7
 			<label for="mail"></label>
 			<input type="email" name="mail" id="mail" required placeholder="your email address">
 			<br>
